@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "blue-button",
+  "type": "registry:component",
+  "title": "Blue Button",
+  "description": "A dummy blue button component.",
+  "registryDependencies": [
+    "button"
+  ],
+  "files": [
+    {
+      "path": "registry/new-york/blocks/blue-button/blue-button.tsx",
+      "content": "import { Button } from \"@/registry/new-york/ui/button\"\n\nexport function BlueButton() {\n  return (\n    <Button\n      className=\"bg-blue-500 hover:bg-blue-600 text-white\"\n    >\n      Blue Button\n    </Button>\n  )\n}\n",
+      "type": "registry:component"
+    }
+  ]
+}
